@@ -9,6 +9,7 @@ project_name ="textSummarizer"
 list_of_files= [
 ".github/workflow/.gitkeep", ## for cicd deployment that you want to commit my code in your Github 
 f"src/{project_name}/__init__.py",
+f"src/{project_name}/config/__init__.py",
 f"src/{project_name}/components/__init__.py",
 f"src/{project_name}/utils/__init__.py",
 f"src/{project_name}/utils/common.py",
@@ -26,6 +27,7 @@ f"src/{project_name}/constants/__init__.py",
 "setup.py",
 "research/trials.ipynb",
 "test.py"
+
 
 ]
 
